@@ -215,6 +215,21 @@ Similarly, when a file is tab-delimited, it is called a **tab-separated values (
 
 **Fixed-Width Files**
 
+**JavaScript Object Notation** 
+- JSON is an open standard file format, designed to add structure to a text file without incurring significant overhead
+- One of its design principles is that JSON is easily readable by people and easily parsed by modern programming languages
+
+
+**Extensible Markup Language (XML)**
+- is a markup language that facilitates structuring data in a text file
+- While conceptually similar to JSON, XML incurs more overhead because it makes extensive use of tags
+- Tags describe a data element and enclose each value for each data element.
+
+**HyperText Markup Language (HTML)**
+- is a markup language for documents designed to be displayed in a web browser
+- HTML pages serve as the foundation for how people interact with the World Wide Web.
+- HTML is a tag-based language
+
 
 
 
