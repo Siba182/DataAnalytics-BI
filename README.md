@@ -55,6 +55,16 @@ While we describe the steps of the analytics process as a series of sequential a
 - Predictive Analytics
 - Prescriptive Analytics
 
+</details>
+
+<details>
+<summary> Week 1 </summary>
+<br>
+
+
+
+
+
 
 
 </details>
