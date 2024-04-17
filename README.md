@@ -394,10 +394,75 @@ Once the extract and load phases are complete, the transformation phase gets und
 **Working with Data**
 
 
+**Data Manipulation**
+When manipulating data, one of four possible actions occurs:
+
+Create new data        - INSERT - Creates new data in an existing table
+Read existing data.    - SELECT - Retrieves data from an existing table
+Update existing data.  - UPDATE - Changes existing data in an existing table
+Delete existing data.  - DELETE - Removes existing data from an existing table
+
+
+**SQL Considerations**
+The keywords in SQL are case-insensitive. However, the case-sensitivity of column names and values depend on the database configuration.
+
+
+**Filtering**
+- Filtering is a way to reduce the data down to only the rows that you need.
+- To filter data, you add a WHERE clause to a query. Note that the column you are filtering on does not have to appear in the SELECT clause.
+
+**Filtering and Logical Operators**
+- A query can have multiple filtering conditions. You need to use a logical operator to account for complex filtering needs
+- Using AND and OR
+
+**Sorting**
+- When querying a database, you frequently specify the order in which you want your results to return.
+- The ORDER BY clause is the component of a SQL query that makes sorting possible
+
+
+**Date Function**
+- date columns are frequently found in OLAP environments. Date columns also appear in transactional systems. Storing date information about an event facilitates analysis across time.
+
+
+**Logical Functions**
+- When writing SQL, there are frequently many ways to write a query and create the same results. Another way to generate the output is by using the IFF logical function. 
+
+ syntax:
+IFF(boolean_expression, true_value, false_value)
+
+
+**Aggregate Functions**
+- Summarized data helps answer questions that executives have, and aggregate functions are an easy way to summarize data. Aggregate functions summarize a query's data and return a single value
+
+![image](https://github.com/Siba182/DataAnalytics-BI/assets/60964130/07d44816-d1ec-4222-8c9f-9685905acbc8)
+
+
+
+**System Functions**
+- Each database platform offers functions that expose data about the database itself. One of the most frequently used system functions returns the current date.
+- The current date is a component of transactional records and enables time-based analysis in the future. The current date is also necessary for a system that uses an effective date approach.
+- System functions also return data about the database environment.
+
+
+**Query Optimization**
+- Writing an SQL query is straightforward. Writing a SQL query that efficiently does what you intend can be more difficult. There are several factors to consider when creating well-performing SQL.
 
 
 
 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
