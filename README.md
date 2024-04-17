@@ -231,7 +231,7 @@ Similarly, when a file is tab-delimited, it is called a **tab-separated values (
 - HTML is a tag-based language
 
 
-
+**Chapter 3**
 
 **Relational Databases** 
 - a database structured to recognize relations between stored items of information.
@@ -450,17 +450,41 @@ IFF(boolean_expression, true_value, false_value)
 
 
 
+**Chapter 4**
+
+**Data Quality Challenges**
+
+**Duplicate Data**
+- Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system. 
+
+**Redundant Data**
+- While duplicate data typically comes from accidental data entry, redundant data happens when the same data elements exist in multiple places within a system. Frequently, data redundancy is a function of integrating multiple systems.
 
 
+**Missing Values**
+- Another issue that impacts data quality is the concept of missing values. Missing values occur when you expect an attribute to contain data but nothing is there. Missing values are also known as null values. A null value is the absence of a value. A null is not a space, blank, or other character
 
 
+**Invalid Data**
+- Invalid data are values outside the valid range for a given attribute. An invalid value violates a business rule instead of having an incorrect data type. As such, you have to understand the context of a system to determine whether or not a value is invalid
 
 
+**Nonparametric Data**
+- Nonparametric data is data collected from categorical variables
+- Sometimes the categories indicate differentiation, and sometimes they have a rank order associated with them
 
 
+**Data Outliers**
+- A data outlier is a value that differs significantly from other observations in a dataset.
+- With outliers, you need to understand why they exist and whether they are valid in the context of your analysis
 
 
+**Specification Mismatch**
+- A specification describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values
 
+
+**Data Type Validation**
+- Data type validation ensures that values in a dataset have a consistent data type.
 
 
 
