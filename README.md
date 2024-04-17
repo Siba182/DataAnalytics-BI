@@ -233,10 +233,171 @@ Similarly, when a file is tab-delimited, it is called a **tab-separated values (
 
 
 
+**Relational Databases** 
+- a database structured to recognize relations between stored items of information.
+
+**Benefits**
+- **Atomicity** defines elements that make up a complete transaction.
+- **Consistency** defines rules for maintaining data integrity following a transaction.
+- **Isolation** keeps the effects of transactions invisible to others so they don't contend with one another.
+- **Durability** ensures data changes become permanent after each committed transaction.
+
+
+**Relational Model**
+- header corresponds to the name of an entity
+- Each of these entities becomes a separate table in the database, with a column for each attribute.
+- Each row represents an instance of the entity
+- The power of the relational model is that it also allows us to describe how entities connect or relate, to each other.
+
+
+**Entity Relationship Diagram**
+- is a visual artifact of the data modeling process
+- it shows the connection between related entities
+-  A relationship is a connection between entities
+-  The symbols adjacent to an entity describe the relationship.
+
+
+**Cardinality**
+- refers to the relationship between two entities, showing how many instances of one entity relate to instances in another entity
+
+![image](https://github.com/Siba182/DataAnalytics-BI/assets/60964130/5e155dbd-c385-4618-84d8-311559b2f819)
+
+
+**Relationships**
+
+**Unary relationship** - is when an entity has a connection with itself. For example, where a single manager has multiple employees
+**Binary relationship** - connects two entities
+**Ternary relationship** - connects three entities. For example, you might use a ticket entity to connect a venue, a performing artist, and a price
+
+
+
+**Relational Databases**
+- are pieces of software that let you make an operational system out of an ERD
+- You start with a relational model and create a physical design
+- Relational entities correspond to database tables, and entity attributes correspond to table columns.
+
+
+**Nonrelational databases**
+- does not have a predefined structure based on tabular data
+- The result is a highly flexible approach to storing data.
+- the data types available in relational databases are absent
+- you need to know more about the data itself to interact with it
+- Data validation happens in code, as opposed to being done in the database.
+
+**Key-value** - database is one of the simplest ways of storing data. Data is stored as a collection of keys and their corresponding values. A key must be globally unique across the entire database. 
+
+
+**Document** - is similar to a key-value database, with additional restrictions. In a key-value database, the value can contain anything. With a document database, the value is restricted to a specific structured format
+
+
+**Column-family** databases use an index to identify data in groups of related columns
+
+**Graph** databases specialize in exploring relationships between pieces of data
+
+
+
+
+**Databases Use Cases**
+
+**Online Transactional Process (OLTP)**
+- OLTP systems handle the transactions we encounter every day
+- Example transactions include booking a flight reservation, ordering something online, or executing a stock trade
+
+
+**Normalization**
+**First Normal Form (1NF)** - is when every row in a table is unique and every column contains a unique value.
+
+**Second normal form (2NF)** starts where 1NF leaves off. In addition to each row being unique, 2NF applies an additional rule stating that all nonprimary key values must depend on the entire primary key
+
+**Third normal form (3NF)** builds upon 2NF by adding a rule stating all columns must depend on only the primary key.
+
+
+
+**Online Analytical Processing**
+- OLAP systems focus on the ability of organizations to analyze data.
+- While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally different.
+
+
+**Schema Concept**
+
+**Database** 
+- Designed to capture and record data
+- Live, real--time data
+- Data stored in tables with column and rows
+- Data is highly detailed
+- Flexible schema
+
+**Data Warehouse**
+- Designed for analytical processing
+- Data is refreshed from source systems - stores current and historical
+- Data is summarised
+- Rigid schema - hoe data is organized
+
+**Data Lake**
+- Designed to capture raw data (structured, semi-structured and unstructured)
+- Made for large amounts of data
+- Used for ML and AI in its current state or for Analytics with processing
+- Can organised and put into Databases or Data Warehouses
+
+
+**Dimensionality**
+- Dimensionality refers to the number of attributes a table has.
+- The greater the number of attributes, the higher the dimensionality.
+- A dimension table provides additional context around data in fact tables
+
+**Handling Dimensionality**
+- There are multiple ways to design dimensions
+
+
+
+**Data Acquisition Concepts**
+To perform analytics, you need data. Data can come from internal systems you operate, or you can obtain it from third-party sources. 
+
+
+**Integration**
+
+**Extract, Transform, Load**
+**Extract** - In the first phase, you extract data from the source system and place it in a staging area. The goal of the extract phase is to move data from a relational database into a flat file as quickly as possible
+
+
+**Transform** -  The second phase transforms the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design
+
+**Load** - The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible
+
+
+
+**Differences between ETL and ELT**
+Extract, load, and transform (ELT) is a variant of ETL. With ELT, data is extracted from a source database and loaded directly into the data warehouse
+
+
+Once the extract and load phases are complete, the transformation phase gets underway. One key difference between ETL and ELT is the technical component performing the transformation
+
+
+ With ETL, the data transformation takes place external to a relational database, using a programming language like Python. ELT uses SQL and the power of a relational database to reformat the data.
+
+
+
+ **Data Collection Methods**
+ - Application Programming Interfaces (APIs)
+ - Web Services
+ - Web Scraping
+ - Human-in-the-Loop
+ - Surveys
+ - Survey Tools
+ - Observation
+ - Sampling
+ 
+ 
+
+
+
+**Working with Data**
 
 
 
 
 
 
+
+  
 </details>
