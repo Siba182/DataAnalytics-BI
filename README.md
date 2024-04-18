@@ -587,4 +587,103 @@ There are many techniques you can use to improve data quality
 <details>
 <summary> Week 3 </summary>
 <br>
+
+ **Data Analytics Tools**
+
+ **Spreadsheets**
+ - The spreadsheet is the most widely used tool in the world of analytics.
+ - It is hard to imagine anyone who does not use spreadsheets as part of their work because they provide an intuitive way to organize our data into rows and columns.
+ - Spreadsheet software is installed on pretty much every computer in the modern work environment, and web-based spreadsheets are freely available to anyone.
+
+
+**Microsoft Excel**
+- Microsoft Excel is the most commonly used desktop spreadsheet application.
+- It is available as a component of the widely deployed Microsoft Office productivity suite and most modern knowledge workers have access to it.
+- Excel then allows users to perform calculations and visualizations on their data
+
+
+**Programming Languages**
+
+**R**
+- The R programming language is extremely popular among data analysts because it is focused on creating analytics applications
+
+**Python**
+- Python is arguably the most popular programming language in use today. Python is about the same age as R, but the major difference between Python and R is that Python is a general-purpose programming language
+
+**Structured Query Language (SQL)**
+- The Structured Query Language (SQL) is the language of databases. Any time a developer, administrator, or end user interacts with a database, that interaction happens through the use of a SQL command
+
+SQL is divided into two major sublanguages:
+
+- **The Data Definition Language (DDL)** is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
+- **The Data Manipulation Language (DML)** is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database.
+
+
+There are three DDL commands that you should know:
+
+- The **CREATE** command is used to create a new table within your database or a new database on your server.
+- The **ALTER** command is used to change the structure of a table that you've already created. If you want to modify your database or table, the ALTER command lets you make those modifications.
+- The **DROP** command deletes an entire table or database from your server. It's definitely a command that you'll want to use with caution!
+
+
+
+There are also four DML commands that you should know:
+
+- The **SELECT** command is used to retrieve information from a database. It is the most commonly used command in SQL as it is used to pose queries to the database and retrieve the data that you're interested in working with.
+- The **INSERT** command is used to add new records to a database table. If you are adding a new employee, customer order, or marketing activity, the INSERT command allows you to add one or more rows to your database.
+- The **UPDATE** command is used to modify rows in the database. If you need to change something that is already stored in your database, the UPDATE command will do that.
+- The **DELETE** command is used to delete rows from a database table. Don't confuse this command with the DROP command. The DROP command deletes an entire database table, whereas the DELETE command just deletes certain rows from the table.
+
+
+
+
+**Microsoft Power BI**
+- Power BI is Microsoft's analytics suite built on the company's popular SQL Server database platform.
+- Power BI is popular among organizations that make widespread use of other Microsoft software because of its easy integration with those packages and cost-effective bundling within an organization's Microsoft enterprise license agreement
+
+
+
+The major components of Power BI include the following:
+
+- **Power BI Desktop** is a Windows application for data analysts, allowing them to interact with data and publish reports for others.
+- The **Power BI** service is Microsoft's software-as-a-service (SaaS) offering that hosts Power BI capabilities in the cloud for customers to access.
+- **Mobile apps** for Power BI provide users of iOS, Android, and Windows devices with access to Power BI capabilities.
+- **Power BI Report Builder** allows developers to create paginated reports that are designed for printing, email, and other distribution methods.
+- **Power BI Report Server** offers organizations the ability to host their own Power BI environment on internal servers for stakeholders to access.
+
+
+**AWS QuickSight**
+- AWS QuickSight is a dashboarding tool available as part of the Amazon Web Services cloud offering
+- This tool's power comes from the fact that it is available on a pay-as-you-go basis and its integration with the powerful data storage, data warehousing, machine learning, and artificial intelligence capabilities offered by the Amazon cloud.
+
+
+**Tableau**
+- Tableau is arguably the most popular data visualization tool available in the market today.
+- The focus of this tool is on the easy ingestion of data from a wide variety of sources and powerful visualization capabilities that allow analysts and business leaders to quickly identify trends in their data and drill down into specific details.
+
+
+
+**Qlik**
+- Qlik is another popular SaaS analytics platform, offering access to cloud-based analytics capabilities.
+
+
+The major products offered by Qlik include the following:
+
+- **QlikView** is the company's original analytics platform that focuses on providing rapid insights.
+- **Qlik Sense** is a more advanced platform providing more sophisticated analytics capabilities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 </details>
