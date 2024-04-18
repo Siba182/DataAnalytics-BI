@@ -488,5 +488,103 @@ IFF(boolean_expression, true_value, false_value)
 
 
 
+**Data Manipulation Techniques**
+- There are several potential issues to be aware of and account for when working with data.
+
+
+**Recoding Data**
+- Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis
+-  Recoding groups data into multiple categories, creating a categorical variable. A categorical variable is either nominal or ordinal.
+- Nominal variables are any variable with two or more categories where there is no natural order of the categories, like hair color or eye color
+-  Ordinal variables are categories with an inherent rank
+
+
+
+**Derived Variables**
+- A derived variable is a new variable resulting from a calculation on an existing variable.
+
+**Data Merge**
+- A data merge uses a common variable to combine multiple datasets with different structures into a single dataset
+- Merging data improves data quality by adding new variables to your existing data
+
+
+**Data Blending**
+- Data blending combines multiple sources of data into a single dataset at the reporting layer.
+- Data blending differs from ETL in that it allows an analyst to combine datasets in an ad hoc manner without saving the blended dataset in a relational databas
+
+
+**Concatenation**
+- Concatenation is the merging of separate variables into a single variable
+- Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns.
+
+**Data Append**
+- A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets
+-  When appending data, you save the result as a new dataset for ongoing analysis.
+
+
+**Imputation**
+- Imputation is a technique for dealing with missing values by replacing them with substitutes
+- When merging multiple data sources, you may end up with a dataset with many nulls in a given column
+
+Here are a few approaches an analyst can use for imputing values:
+
+- **Remove Missing Data**:  With this approach, you can remove rows with missing values without impacting the quality of your overall analysis.
+- **Replace with Zero**:  With this approach, you replace missing values with a zero. Whether or not it is appropriate to replace missing data with a zero is contextual. In this case, zero isn't an appropriate value, as a person's weight should be a positive number. In addition, replacing a zero in this case has an extraordinary impact on the overall average weight.
+- **Replace with Overall Average**:  Instead of using a zero, you can compute the average Weight value for all rows that have data and then replace the missing Weight values with that calculated average.
+- **Replace with Most Frequent (Mode)**:  Alternatively, you can take the most frequently occurring value, called the mode, and use that as the constant.
+- **Closest Value Average**:  With this approach, you use the values from the rows before and after the missing values. For example, to replace the missing measurements for 2/13/2021 and 2/14/2021, take the values from 2/12/2021 and 2/15/2021 to compute the average.
+
+
+
+**Reduction**
+- Reduction is the process of shrinking an extensive dataset without negatively impacting its analytical value
+- There are a variety of reduction techniques from which you can choose. 
+
+
+**Dimensionality Reduction**
+- One reduction technique is dimensionality reduction, which removes attributes from a dataset. Removing attributes reduces the dataset's overall size.
+
+**Numerosity Reduction**
+- which reduces the overall volume of data
+- One way to reduce the volume of quantitative data is by creating a histogram. 
+
+
+
+**Managing Data Quality**
+There are many techniques you can use to improve data quality
+
+
+**Circumstances to Check for Quality**
+- There are numerous circumstances where it is appropriate to implement data quality control checks. Every stop along the data life-cycle journey can impact data quality. Errors during data acquisition, transformation, manipulation, and visualization all contribute to degrading data quality
+
+
+
+**Automated Validation**
+- Whether source data is machine- or human-generated, one way to prevent data entry mistakes from adversely impacting data quality is to automate data validation checks.
+
+
+**Data Quality Dimensions**
+- Six dimensions to take into account when assessing data quality are accuracy, completeness, consistency, timeliness, uniqueness, and validity.
+
+**Data Quality Rules and Metrics**
+- With an understanding of data quality dimensions, you need to consider how to measure each of them in your quest to improve overall quality
+
+**Methods to Validate Quality**
+- Numerous methods are available for validating data quality. These methods range from whether or not your data passes reasonable expectations to statistical methods that look for irregular patterns within your data
+
+- Reasonable Expectations, Data Profiling, Data Audits, Sampling, Cross-Validation
+
+
+
+**What is statistics**
+- the collection and intepretation of data 
+
+
+
+
+
+
+
+
 
 </details>
