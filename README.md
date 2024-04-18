@@ -675,9 +675,33 @@ The major products offered by Qlik include the following:
 
 
 
+**Understanding the Business Requirements**
+- Reports and dashboards both summarize data for end users, but they distribute those summaries in different ways
+
+- A **report** is a static electronic or physical document that reflects information at a given point in time.
+-  A **dashboard** is an interactive visualization that encourages people to explore data dynamically.
 
 
 
+-  a **pull approach**, you publish a report to a known location, like a web page, and let people know the frequency and timing of when the report updates. With this approach, people can go to the website when they want to use the report.
+
+-  a **push approach**, the report is automatically sent to the appropriate people as it becomes available. When designing a push approach, you need to think through distribution considerations.
+
+- **blended approach**, you inform people that the report is available while maintaining central control of the report itself 
+
+
+
+
+**Understanding Report Design Elements**
+- **Control** has to do with how you focus the attention of your audience. When someone encounters a dashboard for the first time, one of your goals is to deliver the pertinent information quickly.
+
+- **Correctness** makes sure that your information is accurate and that there are no spelling mistakes. Pay close attention to correctness when using corporate names and logos.
+
+- **Clarity** refers to selecting the right visualization tool for communicating your message, making sure the visualization is easy to interpret and visually crisp, and using fonts and sizes that are easy to read
+
+- **Consistency** refers to using the same design and documentation elements throughout your report or dashboard to give your visualization a cohesive and complete feel.
+
+- **Concentration** refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details
 
 
 
