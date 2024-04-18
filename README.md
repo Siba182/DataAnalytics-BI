@@ -579,12 +579,12 @@ There are many techniques you can use to improve data quality
 **What is statistics**
 - the collection and intepretation of data 
 
+</details>
 
 
 
 
-
-
-
-
+<details>
+<summary> Week 3 </summary>
+<br>
 </details>
