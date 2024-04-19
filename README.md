@@ -918,22 +918,12 @@ It is vital to identify whether the report you create is for tactical or strateg
 
 
 - A **research report** helps an organization make strategic decisions. To achieve strategic objectives, an organization executes multiple tactical initiatives. Where a tactical report informs a decision with a finite scope and duration, research reports inform the development of an overarching strategy. The implications of strategic decisions are broad, including whether to acquire a competitor, how many component suppliers an organization needs, and whether to diversify and enter an entirely new market.
+  
+</details>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<details>
+<summary> Week 4 </summary>
+<br>
 </details>
