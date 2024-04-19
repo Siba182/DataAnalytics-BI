@@ -706,8 +706,234 @@ The major products offered by Qlik include the following:
 
 
 
+**Report Cover Page**
+- When developing a printed report, keep in mind that the first thing people see is the cover page. Since the cover page is the first thing a person sees, it is vital that it sets expectations about the observations and insights the reader will find within.
+
+
+**Executive Summary**
+- The executive summary provides an overview of the report's contents
+- When crafting an executive summary, you should begin with the end in mind, summarizing crucial observations and insights.
+- With time as an executive's most precious resource, the summary needs to convey the big ideas, while the body of the report details the analysis that led to those ideas
+
+
+**Color Schemes**
+-  color scheme is a limited selection of colors you use when creating a report or a dashboard
+-  The first decision to make is whether you need to use a monochromatic color palette or have the flexibility to use more than one color
+-  A monochromatic palette limits you to working with shades of a single color
+
+
+**Layouts**
+- The layout of a report or dashboard determines the arrangement of its component parts.
+- It is crucial to consider approachability when thinking about the design.
+- When developing the layout for a report, begin with a summary before diving into the supporting details.
 
 
 
- 
+**Fonts**
+- When choosing a font style, pick one that is easy for people to read by avoiding ornate fonts
+- In typography, a serif is a finishing detail for each letter in a typeface.
+- A serif font style includes serifs (the curls), whereas a sans serif font style does not
+
+
+**Graphics**
+- Using graphics to present summary information is a practical choice, whether creating a report or developing a dashboard.
+- As the saying goes, a picture is worth a thousand words, and visually conveying information with charts helps focus your audience's attention
+
+
+**Corporate Reporting Standards**
+- When developing any type of visualization, be mindful of any existing corporate reporting standards
+- A style guide is a set of standards that drives consistency in communication.
+- As a means of enforcing structure and consistency, style guides define the use of a variety of branding elements, including page layout, font selection, corporate color codes, logos, and trademarks. 
+
+
+**Documentation Elements**
+- People must trust the information in your visualizations.
+- To help establish trust, you can incorporate documentation elements, including version numbers, reference data sources, and reference dates.
+- Reference dates include the initial creation date, report run date, and data refresh date.
+
+
+**Version Number**
+- A version number is a numeric value that refers to a specific version of a report
+- Version numbers help you keep track of changes to content and layout over time
+- Reference data sources identify where data in the report originates.
+
+
+
+**Reference Data Sources**
+- Reference dates help people understand what to expect in terms of data recency.
+- For example, if a report has a daily refresh cycle, the report run date helps people realize when the last data refresh date was. 
+-  If they see that the refresh date is from a week ago, they know the report is missing a week's worth of data.
+
+
+
+**Frequently Asked Questions**
+- When developing a report or a dashboard, it is good to maintain a set of frequently asked questions (FAQs)
+- A FAQ provides answers to people's most common questions.
+- If the dashboard is available online, the FAQ can contain links to a glossary of unique terms, cross-references to other dashboards or reports, and contact information if there are additional questions.
+
+
+
+**Appendix**
+- When developing a report, use an appendix to include supporting details that are inappropriate to include in the main body.
+
+
+
+**Understanding Dashboard Development Methods**
+
+
+**Consumer Types**
+- As with developing a report, it is crucial to identify who will be interacting with the dashboard you create
+- C-level executives, with titles like chief executive officer and chief financial officer, have the most senior leadership positions in an organization.
+-  Ensure you spend sufficient time identifying the key performance indicators (KPIs) crucial to senior leaders.
+- A KPI is a metric that leadership agrees is crucial to achieving the organization's business objectives.
+- Your organization may enter into a service level agreement (SLA) that describes the level of service an external vendor or partner can expect.
+
+
+**Data Source Considerations**
+- With clarity on what your dashboard needs to contain, you can proceed with identifying data sources.
+
+- **Static data** is data that refreshes at some regular interval. A typical design pattern is for operational databases to update a data warehouse every night.
+
+- **Continuous data**, also known as live data, typically comes directly from an operational database that people use to perform their daily duties
+
+- The operational database provides a **live data feed** to the dashboard.
+
+
+
+**Data Type Considerations**
+- One thing that differentiates dashboards and reports is the fact that dashboards use software as the delivery mechanism.
+- A **measure** is a numeric, quantitative value that a dashboard user is curious about
+
+
+**Development Process**
+- After you identify the data sources that will power your dashboard, you must turn your attention to developing the dashboard itself
+- A **wireframe** is a blueprint for an application that defines the basic design and functions of a dashboard
+- A **mock-up** extends a wireframe by providing details about the visual elements of the dashboard, including fonts, colors, logos, graphics, and page styles
+- Incorporating wireframes, mock-ups, and a data story plan helps design an optimal **web interface**
+
+
+
+**Delivery Considerations**
+- Delivery considerations are a crucial part of the development process.
+- Accounting for how you will refresh data is one of the many things to consider
+- As you document their requirements and develop mock-ups, you need to determine whether people can subscribe to changes
+- If subscription capability is a requirement, you need to have a system where people can opt-in to receive a notification when the underlying data changes.
+
+
+**Operational Considerations**
+- Once you have final approval, you proceed with developing the dashboard.
+-  Similar to the design stage, make sure you include frequent opportunities to gather feedback
+-  Once dashboard development is complete, test it thoroughly to verify its functionality.
+
+
+
+
+
+**Exploring Visualization Types**
+- You have many options for presenting information visually.
+- It is vital to select a visualization type that appropriately conveys the story you are telling with your data in a compelling format.
+
+**Charts**
+- Charts are one of the foundational methods for visualizing both qualitative and quantitative data.
+- There are many chart types, including line, pie, bar, stacked, scatter, and bubble charts
+
+
+**Histogram**
+- A histogram is a chart that shows a frequency distribution for numeric data.
+- When performing an exploratory data analysis, create histograms for numeric data
+
+
+**Maps**
+- People frequently use maps to convey the location of a country, town, or individual address. 
+- Maps are effective methods of orienting a person to a dataset
+- There are numerous types of maps available to visualize data, including geographic, heat, and tree maps
+
+
+
+**Waterfall**
+- A waterfall chart displays the cumulative effect of numeric values over time.
+- Waterfall charts facilitate an understanding of how a series of events impact an initial value.
+
+
+
+**Infographic**
+- An infographic, which gets its name from the words “information” and “graphic,” is a visualization that presents information clearly and concisely.
+- Infographics minimize text in favor of visual elements to represent a topic in a format that is easy to understand
+
+
+**Word Cloud**
+- A word cloud is a visualization that uses shape, font size, and color to signify the relative importance of words.
+- Word clouds are effective at visualizing free-form text responses. When creating a word cloud, you eliminate common words and conjunctions as they occur frequently and don't add value in terms of meaning. 
+
+
+
+**Comparing Report  Types**
+- There are several report types to choose from, depending on the information you want to convey.
+
+
+
+**Static and Dynamic**
+It is imperative to identify whether a report needs to be static or dynamic, as that difference impacts where you get your data. 
+
+- **Static reports** pull data from various data sources to reflect data at a specific point in time. Suppose you work in a financial services firm and develop a five-year trend report for securities in the automotive sector, including Ford, Volkswagen, and Tesla.
+
+- **Dynamic reports** give people real-time access to information. Using your five-year trend report to inform their analysis, a financial analyst in your company may want to execute a trade. For the analysts to determine the price they are willing to pay for a given security, they need access to real-time pricing data.
+
+
+**Ad Hoc**
+- **Ad hoc reports, or one-time reports**, use existing data to meet a unique need at a specific point in time. For example, suppose a hospital suffers an information security breach.
+
+
+
+**Self-Service (On-Demand)**
+- Self-service reports, or on-demand reports, allow individuals to answer questions that are unique to them at a time of their choosing.
+- Instead of having data pushed to them, an attribute of self-service reporting is that individuals can pull a report at the time of their choosing
+
+
+**Recurring Reports**
+Recurring reports provide summary information on a regularly scheduled basis. Typically, recurring reports get delivered to their audience immediately after creation
+
+
+There are numerous types of recurring **operational reports** that organizations use to monitor organizational health and performance. Operational reports typically show the KPIs for an organization.
+
+
+From a **financial compliance reporting** standpoint, if you are a public company in the United States, you need to document annual compliance with the Sarbanes–Oxley Act (SOX). SOX compliance ensures that your company provides proof of accurate financial reporting.
+
+
+From a **safety compliance reporting** standpoint, you need to comply with the Occupational Safety and Health Act (OSHA) in the United States to ensure the safety of your employees.
+
+
+If you process health-related data in the United States, you must meet health **compliance reporting** obligations.
+
+
+Organizations develop **risk compliance reports** to engender trust. For example, System and Organization Controls (SOC) reports document how an organization maintains its IT systems’ security, availability, and confidentiality in the information technology space. 
+
+
+
+**Tactical and Research**
+It is vital to identify whether the report you create is for tactical or strategic purposes.
+
+
+- **Tactical reports** provide information to inform an organization's short-term decisions. Tactical information helps organizations accomplish initiatives like constructing a building, opening a manufacturing plant, or shipping products from one location to another.
+
+
+- A **research report** helps an organization make strategic decisions. To achieve strategic objectives, an organization executes multiple tactical initiatives. Where a tactical report informs a decision with a finite scope and duration, research reports inform the development of an overarching strategy. The implications of strategic decisions are broad, including whether to acquire a competitor, how many component suppliers an organization needs, and whether to diversify and enter an entirely new market.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </details>
