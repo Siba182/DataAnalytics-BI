@@ -926,4 +926,76 @@ It is vital to identify whether the report you create is for tactical or strateg
 <details>
 <summary> Week 4 </summary>
 <br>
+
+**Data Governance Concepts**
+- Data governance is the set of policies, procedures, and controls that an organization develops to safeguard its information while making it useful for transactional and analytic purposes.
+
+
+**Data Governance Roles**
+- It takes multiple people fulfilling a variety of roles for data governance to thrive. A crucial concept relating to data governance is data stewardship
+- Stewardship denotes looking after something, like an organization or property
+  
+-  **Data stewardship** is the act of developing the policies and procedures for looking after an organization's data quality, security, privacy, and regulatory compliance
+
+-   An **organizational data steward**, or data steward, is the person responsible for data stewardship.
+
+- A **data owner** is a senior business leader with overall responsibility for a specific data domain. A data domain, or data subject area, contains data about a particular operational division within an organization
+
+
+- **A data custodian** is a role given to someone who implements technical controls that execute data governance policies. Data custodians are frequently information technology employees who configure applications, dashboards, and databases
+
+
+
+
+
+**Access Permissions**
+It is a best practice to use role-based access to grant people permission to access data.
+
+- **Role-based access** means that instead of giving access to individual people, you grant access to the role they occupy
+- A role-based access approach facilitates permissions maintenance and improves consistency
+
+
+- The alternative to role-based access is **user-based access**, which assigns permissions directly to individuals
+-  User-based access is a dangerous practice as it increases operational complexity and the potential for mistakes.
+
+
+
+
+**Group Permissions**
+- It's best to start by visualizing people within an organization when creating data access roles. An organization chart documents the reporting structure within an organization
+
+
+**Data Use Agreements**
+- A data use agreement (DUA) is a contractual document for transferring private data between organizations. 
+- You should establish a DUA before sharing data with an outside party
+- It is essential to understand the classification for each piece of data when crafting a DUA
+
+
+**Security Requirements**
+- With data access requirements in place, you need to determine the technical controls for protecting data
+- In cryptography, encryption is the process of encoding data with a key so that only authorized parties can read it
+- Data encryption is one of the fundamental components of data protection, as the data is unusable without the key to decrypt it.
+- An encryption key is a series of letters, numbers, and symbols used during the encoding process to make data unreadable
+
+
+
+
+**Storage Environment Requirements**
+- There are many environments where data at rest exists, including local storage, a shared drive, and the cloud.
+- Regardless of the storage environment, you need to encrypt all data at rest. Local storage is the storage media on an individual device, such as a hard drive in a laptop.
+
+
+Encrypting local storage is straightforward, regardless of the operating system you use. The steps, visualized in Figure 11, are as follows:
+
+- Create a password for encrypting the local storage.
+- Determine the operating system.
+- Use the encryption tool appropriate for the chosen operating system.
+
+
+
+
+
+
+
+ 
 </details>
